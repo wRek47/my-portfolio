@@ -1,8 +1,12 @@
-<!DOCTYPE html>
+<?php
+
+$author = "Dylan L Hall";
+
+?><!DOCTYPE html>
 <html lang="en">
 <head>
 	<title>Dylan L Hall: GitHub</title>
-	<meta name="author" name="Dylan L Hall" />
+	<meta name="author" name="<?= $author; ?>" />
 	
 	<meta charset="utf-8" />
 	
