@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Dylan L Hall: GitHub</title>
+	<title>Dylan L Hall</title>
+	
 	<meta name="author" name="Dylan L Hall" />
 	
 	<meta charset="utf-8" />
@@ -13,17 +14,62 @@
 	<link rel="stylesheet" href="//stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
 	
 	<style type="text/css">
+	.bg-gainsboro { background-color: gainsboro; }
+	.bg-silver { background-color: silver; }
+	.bg-dimgray { background-color: dimgray; }
+	.bg-slategray { background-color: slategray; }
 	.bg-yellowgreen { background-color: yellowgreen; }
 	</style>
 </head>
-<body class="w-50 mx-auto">
 
-<header class="mt-3 p-4 text-center bg-yellowgreen text-white rounded">
-	<h1 class="mb-0">Dylan L Hall</h1>
-	<p class="mb-0">Freelance Website Developer</p>
+<body>
+
+<header class="py-2 bg-dark text-light container-fluid">
+	<div class="row">
+<!-- feature: header-bar.favorites -->
+		<div class="col-xl-4 d-none d-xl-block">
+			<ul class="list-unstyled d-flex p-3 justify-content-around">
+<li class="bg-light rounded px-4 py-3 mr-3 text-center"><a class="text-success" href="/?page=website-catalog"><i style="font-size: 2.5em;" class="fa fa-globe mb-2"></i><br />Website Catalog</a></li>
+<li class="bg-light rounded px-4 py-3 mr-3 text-center"><a class="text-primary" href="/?page=public-calendar"><i style="font-size: 2.5em;" class="fa fa-calendar mb-2"></i><br />Public Calendar</a></li>
+<li class="bg-light rounded px-4 py-3 mr-3 text-center"><a class="text-danger" href="//weblog.dylanhall.me"><i style="font-size: 2.5em;" class="fa fa-edit mb-2"></i><br />Website Blog</a></li>
+			</ul>
+		</div>
+		
+<!-- feature: header-bar.intro -->
+		<div class="col-12 col-xl-4">
+			<article class="my-3 p-4 text-center bg-yellowgreen text-light rounded">
+				<h1 class="mb-3">Dylan L Hall</h1>
+				<p class="mb-0">Freelance Website Developer</p>
+			</article>
+		</div>
+
+<!-- feature: header-bar.networks -->
+		<div class="col-xl-4 d-none d-xl-block">
+			<ul class="list-unstyled d-flex p-3 justify-content-around">
+<li class="bg-light rounded px-4 py-3 mr-3 text-center"><a class="text-danger" href="javascript:void()"><i style="font-size: 2.5em;" class="fa fa-google mb-2"></i><br />Google</a></li>
+<li class="bg-light rounded px-4 py-3 mr-3 text-center"><a class="text-primary" href="javascript:void()"><i style="font-size: 2.5em;" class="fa fa-facebook-square mb-2"></i><br />Facebook</a></li>
+<li class="bg-light rounded px-4 py-3 mr-3 text-center"><a class="text-success" href="//github.dylanhall.me"><i style="font-size: 2.5em;" class="fa fa-github mb-2"></i><br />GitHub</a></li>
+			</ul>
+		</div>
+	</div>
 </header>
 
-<div class="py-4">
+<section class="bg-slategray d-xl-none">
+	<nav class="nav">
+		<ul class="list-unstyled mb-0 px-2 mx-auto d-lg-flex w-100">
+			<li class="nav-item px-2 text-center"><a class="d-block p-2 text-light" href="javascript:void()">Google</a></li>
+			<li class="nav-item px-2 text-center"><a class="d-block p-2 text-light" href="javascript:void()">Facebook</a></li>
+			<li class="nav-item px-2 text-center"><a class="d-block p-2 text-light" href="//github.dylanhall.me" target="_blank">GitHub</a></li>
+			<li class="nav-item px-2 text-center"><a class="d-block p-2 btn-dark text-light" href="?page=website-catalog">Website Catalog</a></li>
+			<li class="nav-item px-2 text-center"><a class="d-block p-2 text-light" href="?page=public-calendar">Public Calendar</a></li>
+			<li class="nav-item px-2 text-center"><a class="d-block p-2 text-light" href="//weblog.dylanhall.me" target="_blank">Website Blog</a></li>
+		</ul>
+	</nav>
+</section>
+
+<main>
+
+<div class="container py-4">
 	<p class="alert alert-warning">
 		The GitHub web page is currently in development.<br /><br />
 		You may access my <a class="text-warning" href="//github.com/wRek47" target="_blank">GitHub profile</a> directly to find
@@ -43,6 +89,43 @@
 		</p>
 	</div>
 </div>
+
+</main><footer class="bg-dark text-light">
+	<section class="p-4">
+		<div class="pull-right"><a class="btn bg-yellowgreen text-light" href="#">Top</a></div>
+		
+		<div class="row">
+		
+			<div class="col-12 col-md-4">
+				<h5>Legal Information</h5>
+				
+				<nav class="nav flex-column mx-4">
+					<a class="text-warning" href="javascript:void()">Terms of Service</a>
+					<a class="text-warning" href="javascript:void()">Terms of Use</a>
+					<a class="text-warning" href="javascript:void()">Privacy Policy</a>
+				</nav>
+				
+				<hr class="half-rule d-md-none" />
+			</div>
+			
+			<div class="col-12 col-md-4 mb-md-0">
+				<h5 class="d-inline">This portfolio</h5>
+				<p class="d-inline">
+					is created by and for Dylan L Hall as a personal research &amp; development tool for everyday living.
+				</p>
+				
+				<hr class="half-rule" />
+				
+				<p class="small mb-0 text-center">
+					Established: October 2020 <br class="d-md-none" /><span class="d-none d-md-inline">&middot;</span> Last updated: October 2020
+				</p>
+			</div>
+		
+		</div>
+		
+		<div class="clearfix"></div>
+	</section>
+</footer>
 
 </body>
 </html>
