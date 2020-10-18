@@ -19,15 +19,85 @@
 
 	<header class="mx-4">
 		<h1>Donna's Gluten Free Recipes</h1>
-		<h2>Example HTML</h2>
+		<h2 class="mx-4">Example HTML</h2>
 	</header>
 	
 	<hr class="half-rule" />
 	
 	<main class="mx-4">
+
+<!-- recipe -->	
+<section>
+	<h4 class="text-secondary mb-4">{recipe.name}</h4>
 	
+	<div class="row">
+		<aside class="col-md-4 small">
+			<div class="panel p-4 bg-warning text-white">
+				<h6>{Side-Panel}</h6>
+				
+				<p class="mb-0 mx-4">
+					{Extra-Information}
+				</p>
+			</div>
+		</aside>
 		
+		<aside class="col-md-8">
+			<article class="p-4 bg-light">
+				<h5 class="text-warning">Ingredients</h5>
+				
+				<ul class="mb-0">
+					<li>{Ingredient-Information}</li>
+				</ul>
+			</article>
+			
+			<article class="p-4">
+				<h5 class="text-warning">Instructions</h5>
+				
+				<ol class="mb-0">
+					<li>{Instruction-Information}</li>
+				</ol>
+			</article>
+		</aside>
+	</div>
+</section>
+
+<hr class="half-rule" style="border-style: dashed;" />
+
+<!-- recipe -->	
+<section>
+	<h4 class="text-secondary mb-4">{recipe.name}</h4>
 	
+	<div class="row">
+		<aside class="col-md-4 small">
+			<div class="panel p-4 bg-warning text-white">
+				<h6>{Side-Panel}</h6>
+				
+				<p class="mb-0 mx-4">
+					{Extra-Information}
+				</p>
+			</div>
+		</aside>
+		
+		<aside class="col-md-8">
+			<article class="p-4 bg-light">
+				<h5 class="text-warning">Ingredients</h5>
+				
+				<ul class="mb-0">
+					<li>{Ingredient-Information}</li>
+				</ul>
+			</article>
+			
+			<article class="p-4">
+				<h5 class="text-warning">Instructions</h5>
+				
+				<ol class="mb-0">
+					<li>{Instruction-Information}</li>
+				</ol>
+			</article>
+		</aside>
+	</div>
+</section>
+
 	</main>
 
 </div>
